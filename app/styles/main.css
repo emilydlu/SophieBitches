@@ -30,6 +30,7 @@ body {
   padding-bottom: 19px;
 }
 
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -59,6 +60,29 @@ body {
   margin-top: 28px;
 }
 
+/* table formatting */
+
+th, td {
+    padding: 15px;
+}
+
+/* turn off horizontal scrolling*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*picture formatting*/ 
+
+#icon {
+  width: 200px;
+  height: 200px;
+}
+
+#header-icon{
+  width:200px;
+  height:300px;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
