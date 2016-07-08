@@ -72,6 +72,13 @@ html, body {
     overflow-x: hidden;
 }
 
+/*audio formatting */
+
+
+audio {
+    display: none;
+}
+
 /*picture formatting*/ 
 
 #icon {
