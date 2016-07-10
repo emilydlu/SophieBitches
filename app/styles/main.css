@@ -9,6 +9,20 @@ body {
   padding: 0;
 }
 
+#sophie {
+  padding-top: 250px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  color: white;
+  display: inline-block;
+}
+
+#bitches {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  color: yellow;
+  display: inline-block;
+  }
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -90,6 +104,26 @@ audio {
   width:200px;
   height:300px;
 }
+
+.jumbotron{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.jumbo-container{
+    height: 100vh;
+    background-color: #33bebe;
+}
+.jumbo-container h1{
+    padding-top: 250px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%
+}
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -110,11 +144,5 @@ audio {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
-  }
-  .jumbotron-container{
-    height: 100vh;
-  }
-  .jumbotron-container h1{
-    padding-top: 200px;
   }
 }
