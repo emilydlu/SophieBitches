@@ -111,4 +111,10 @@ audio {
   .jumbotron {
     border-bottom: 0;
   }
+  .jumbotron-container{
+    height: 100vh;
+  }
+  .jumbotron-container h1{
+    padding-top: 200px;
+  }
 }
