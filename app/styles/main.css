@@ -29,14 +29,14 @@ body {
 
 #sophie {
   padding-top: 250px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Abril Fatface';
   font-size: 80px;
   color: white;
   display: inline-block;
 }
 
 #bitches {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Abril Fatface';
   font-size: 80px;
   color: yellow;
   display: inline-block;
@@ -74,6 +74,9 @@ body {
   margin: 30px 0;
 }
 
+.centered-table{
+  vertical-align: center;
+}
 /* Main marketing message and sign up button */
 
 .jumbotron .btn {
@@ -151,7 +154,14 @@ img{
   border-radius: 50%
 }
 
+.table-container{
+  margin-left: 12%;
+  margin-right: 0%;
+}
 
+.footer .container {
+  text-align: center;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {

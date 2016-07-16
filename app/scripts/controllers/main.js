@@ -18,59 +18,73 @@ angular.module('sophieBitchesApp')
 
     var vm = this;
 
-   this.fuckingDelight = function() {
-   	var formation = document.getElementById("fuckingDelight");
-   	if (formation.paused == true){
-   		formation.play();
-   	} else {
-   		formation.pause();
-   	}
+  vm.fuckingDelight = function() {
+    var fuckingDelight = document.getElementById('fuckingDelight');
+    playRecording(fuckingDelight);
+    };
+  
+  vm.icedChai = function(){
+    var icedChai = document.getElementById('icedChai');
+   	playRecording(icedChai);
   };
 
-  this.icedChai = function(){
-  var icedChai = document.getElementById("icedChai");
-   	if (icedChai.paused == true){
-   		icedChai.play();
-   	} else {
-   		icedChai.pause();
-   	}
+  vm.dasSoMean = function(){
+    var dasSomean = document.getElementById('dasSomean');
+   playRecording(dasSomean); 
+  };
+   
+  vm.tempurpedic = function(){
+    var tempurpedic = document.getElementById('tempurpedic');
+   	playRecording(tempurpedic); 
+  };
+   
+  vm.parks = function(){
+    var parks = document.getElementById('parks');
+    playRecording(parks); 
+  };
+   
+  vm.canUNot = function(){
+    var canUNot = document.getElementById('canUNot');
+    playRecording(canUNot); 
+  };
+    
+  vm.amazingHouse = function(){
+    var amazingHouse = document.getElementById('amazingHouse');
+    playRecording(amazingHouse); 
+  };
+  
+  vm.amazinglegs = function(){
+    var amazinglegs = document.getElementById('amazinglegs');
+    playRecording(amazinglegs); 
+  };
+       
+  vm.paleSophie = function(){
+    var paleSophie = document.getElementById('paleSophie');
+    playRecording(paleSophie); 
+  };
+  
+  vm.sophieYouLookGood = function(){
+    var sophieYouLookGood = document.getElementById('sophieYouLookGood');
+    playRecording(sophieYouLookGood); 
+  };
+  
+  vm.southAfricastomach = function(){
+    var southAfricaStomach = document.getElementById('southAfricastomach');
+    playRecording(southAfricaStomach); 
+  };
+  
+  vm.stuffedFrenchToast = function(){
+    var stuffedFrenchToast = document.getElementById('stuffedFrenchToast');
+    playRecording(stuffedFrenchToast); 
   };
 
-  this.dasSoMean = function(){
-  var dasSomean = document.getElementById("dasSomean");
-   	if (dasSomean.paused == true){
-   		dasSomean.play();
-   	} else {
-   		dasSomean.pause();
-   	}
-  };
-   
-   this.tempurpedic = function(){
-  var tempurpedic = document.getElementById("tempurpedic");
-   	if (tempurpedic.paused == true){
-   		tempurpedic.play();
-   	} else {
-   		tempurpedic.pause();
-   	}
-  };
-   
-   this.parks = function(){
-  var parks = document.getElementById("parks");
-   	if (parks.paused == true){
-   		parks.play();
-   	} else {
-   		parks.pause();
-   	}
-  };
-   
-   this.canUNot = function(){
-  var canUNot = document.getElementById("canUNot");
-   	if (canUNot.paused == true){
-   		canUNot.play();
-   	} else {
-   		canUNot.pause();
-   	}
-  };
+  function playRecording(audio){
+    if (audio.paused === true){
+      audio.play();
+    } else {
+      audio.pause();
+    } 
+  }
   });
 
 
